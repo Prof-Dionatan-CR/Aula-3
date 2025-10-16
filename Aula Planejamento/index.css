@@ -72,6 +72,19 @@ a {
     color: inherit;
 }
 
+li{
+    list-style: none;
+}
+li a{
+    color: #00d8ff;
+    font-weight: bold;
+    font-size: large;
+}
+
+li a:hover{
+    color: #c8f7ff;
+}
+
 footer {
     text-align: center;
     padding: 20px;
