@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e1e2f, #2b2b3c);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    color: #00d8ff;
+    margin-bottom: 5px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    background: #00d8ff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+header a:hover {
+    background: #00b8e0;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+section {
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #00d8ff;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+code {
+    background: rgba(255,255,255,0.1);
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+/* ====== Demonstrações ====== */
+.float-demo {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    overflow: auto; /* importante para conter os floats */
+}
+
+.float-box {
+    width: 150px;
+    height: 100px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.left {
+    background: #00d8ff;
+    float: left;
+    margin-right: 15px;
+}
+
+.right {
+    background: #ff7b00;
+    float: right;
+    margin-left: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.image-float {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+
+/* ====== Área de Testes ====== */
+.teste-css {
+  background: rgba(255,255,255,0.05);
+  margin-top: 40px;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.teste-css h2 {
+  color: #00d8ff;
+  margin-bottom: 10px;
+}
+
+.caixa {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* ====== Classes para alteração ====== */
+.teste-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.caixa1 {
+  background: lightcoral;
+}
+
+.caixa2 {
+  background: lightblue;
+}
+
+.caixa3 {
+  background: lightgreen;
+}
+
+
+@media (max-width: 600px) {
+    .float-box {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+    }
+    .image-float {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    }
+}
