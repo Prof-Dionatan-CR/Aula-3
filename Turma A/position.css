@@ -30,23 +30,30 @@ ul {
 }
 
 .relative { 
-    position: ; 
+    position: relative;
+    top: 15px;
+    left: 200px;
     background: #ffd700; 
 }
 
 .absolute {
-    position: ;
+    position: absolute;
+    top: 20px;
+    right: 60px;
     background: #ff7b00;
 }
 
 .fixed {
-    position: ;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
     background: #ff3b3b;
     z-index: 10;
 }
 
 .sticky {
-    position: ;
+    position: sticky;
+    bottom: 10px;
     background: #7fff00;
 }
 
@@ -67,8 +74,9 @@ ul {
 }
 
 .img-container .label {
-    position: ;
-    
+    position: absolute;
+    left: 10px;
+    top: 15px;
     background: rgba(0,0,0,0.6);
     padding: 10px 15px;
     border-radius: 8px;
@@ -111,14 +119,20 @@ ul {
 
 .caixa1 {
   background: lightcoral;
+  position: absolute;
+  left: 10px;
 }
 
 .caixa2 {
   background: lightblue;
+  position: absolute;
+  left: 40px;
 }
 
 .caixa3 {
   background: lightgreen;
+  position: absolute;
+  left: 70px;
 }
 
 

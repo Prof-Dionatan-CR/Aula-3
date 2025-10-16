@@ -2,12 +2,12 @@
 .box-demo {
   background: #00d8ff;
   color: #000;
-  padding: 30px;
+  padding: 50px 100px 10px 200px;
   border: 5px solid #fff;
   margin: 20px auto;
-  width: 200px;
+  width: 500px;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 60px;
 }
 
 /* ===== Exemplo do Box Model ===== */
@@ -94,12 +94,15 @@
 
 .caixa1 {
   background: lightcoral;
+  margin: 20px;
 }
 
 .caixa2 {
   background: lightblue;
+  border: 10px solid black;
 }
 
 .caixa3 {
   background: lightgreen;
+  padding: 100px;
 }
