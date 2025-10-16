@@ -8,7 +8,7 @@
     text-align: center;
     overflow: hidden;
 }
-
+ 
 .box {
     width: 100px;
     height: 100px;
@@ -21,32 +21,38 @@
     font-weight: bold;
 }
 
+a{
+  color: antiquewhite;
+  font-size: large;
+  font-weight: bold;
+}
+
 /* --- 1. Centralização com margin auto --- */
 .center-margin {
     width: 100px;
-    margin: 0 auto;
+    margin: 0 auto;       /* inserir */
 }
 
 /* --- 2. Centralização absoluta --- */
 .center-absolute {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%;                         /* inserir */
+    left: 50%;                        /* inserir */
+    transform: translate(-50%, -50%); /* inserir */
 }
 
 /* --- 3. Flexbox --- */
 .flex-center {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;            /* inserir */
+    justify-content: center;        /* inserir */
     height: 200px;
 }
 
 /* --- 4. Grid --- */
 .grid-center {
     display: grid;
-    place-items: center;
+    place-items: center;            /* inserir */ 
     height: 200px;
 }
 

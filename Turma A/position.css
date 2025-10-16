@@ -30,30 +30,23 @@ ul {
 }
 
 .relative { 
-    position: relative;   /* inserir */
-    top: 20px;            /* inserir */
-    left: 30px;           /* inserir */
+    position: ; 
     background: #ffd700; 
 }
 
 .absolute {
-    position: absolute;   /* inserir: a posição anterior do elemento é ignorada e outros podem sobrepor*/
-    top: 50px;            /* inserir */
-    right: 20px;          /* inserir */
+    position: ;
     background: #ff7b00;
 }
 
 .fixed {
-    position: fixed;      /* inserir */
-    bottom: 20px;         /* inserir */
-    right: 20px;          /* inserir */
+    position: ;
     background: #ff3b3b;
     z-index: 10;
 }
 
 .sticky {
-    position: sticky;     /* inserir */
-    top: 10px;            /* inserir */
+    position: ;
     background: #7fff00;
 }
 
@@ -74,9 +67,8 @@ ul {
 }
 
 .img-container .label {
-    position: absolute;     /* inserir */
-    bottom: 15px;           /* inserir */
-    right: 15px;            /* inserir */
+    position: ;
+    
     background: rgba(0,0,0,0.6);
     padding: 10px 15px;
     border-radius: 8px;

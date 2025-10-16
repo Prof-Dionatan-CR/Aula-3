@@ -1,46 +1,60 @@
 /* ====== Demonstrações ====== */
-.float-demo {
+.demo {
     background: rgba(255,255,255,0.1);
     border-radius: 10px;
-    padding: 20px;
-    overflow: auto; /* importante para conter os floats */
-}
-
-.float-box {
-    width: 150px;
-    height: 100px;
-    color: #000;
+    height: 200px;
+    margin: 20px 0;
+    position: relative;
     text-align: center;
-    line-height: 100px;
-    font-weight: bold;
-    border-radius: 8px;
+    overflow: hidden;
 }
 
-.left {
+.box {
+    width: 100px;
+    height: 100px;
     background: #00d8ff;
-    float: left;            /* inserir */
-    margin-right: 15px;
-}
-
-.right {
-    background: #ff7b00;
-    float: right;           /* inserir */
-    margin-left: 15px;
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.image-float {
-    width: 200px;
-    float: left;            /* inserir */
-    margin-right: 20px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
+    font-weight: bold;
 }
 
+a{
+  color: antiquewhite;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* --- 1. Centralização com margin auto --- */
+.center-margin {
+    width: 100px;
+    margin: 0;
+}
+
+/* --- 2. Centralização absoluta --- */
+.center-absolute {
+    position: absolute;
+
+
+
+}
+
+/* --- 3. Flexbox --- */
+.flex-center {
+    display: flex;
+
+
+    height: 200px;
+}
+
+/* --- 4. Grid --- */
+.grid-center {
+    display: grid;
+    
+    height: 200px;
+}
 
 /* ====== Área de Testes ====== */
 .teste-css {
@@ -89,15 +103,5 @@
 
 
 @media (max-width: 600px) {
-    .float-box {
-    width: 100%;
-    float: none;
-    margin: 10px 0;
-    }
-    .image-float {
-    float: none;
-    display: block;
-    margin: 0 auto 20px auto;
-    width: 100%;
-    }
+    .box { width: 80px; height: 80px; font-size: 0.9rem; }
 }

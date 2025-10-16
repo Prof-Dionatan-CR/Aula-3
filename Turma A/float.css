@@ -18,13 +18,13 @@
 
 .left {
     background: #00d8ff;
-    float: left;            /* inserir */
+    float: ;
     margin-right: 15px;
 }
 
 .right {
     background: #ff7b00;
-    float: right;           /* inserir */
+    float: ;
     margin-left: 15px;
 }
 
@@ -36,7 +36,7 @@
 
 .image-float {
     width: 200px;
-    float: left;            /* inserir */
+    float: ;
     margin-right: 20px;
     border-radius: 8px;
 }
